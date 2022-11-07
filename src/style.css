@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1,
+h2,
+h3,
+p,
+a {
+  font-family: "Bellota Text", cursive;
+  color: white;
+}
+
+h1 {
+  font-size: 37px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-weight: 100;
+
+  font-size: 18px;
+}
+
+.bordercolor {
+  color: #00a651;
+}
+
+a {
+  font-size: 20px;
+  font-weight: 800;
+}
